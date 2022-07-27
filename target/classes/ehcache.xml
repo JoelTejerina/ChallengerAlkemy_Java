@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+    <defaultCache eternal="true" maxElementsInMemory="2000" overflowToDisk="false" />
+    <cache name="generos" 
+           maxElementsInMemory="1000" 
+           timeToIdleSeconds="120"
+           timeToLiveSeconds="120"
+           overflowToDisk="false"
+           memoryStoreEvictionPolicy="LRU" />
+           
+    <cache name="generoPorNombre" 
+           maxElementsInMemory="1000" 
+           timeToIdleSeconds="120"
+           timeToLiveSeconds="120"
+           overflowToDisk="false"
+           memoryStoreEvictionPolicy="LRU" />
+           
+    <cache name="generoPorId" 
+           maxElementsInMemory="1000" 
+           timeToIdleSeconds="120"
+           timeToLiveSeconds="120"
+           overflowToDisk="false"
+           memoryStoreEvictionPolicy="LRU" />
+           
+    <cache name="peliculas" 
+           maxElementsInMemory="1000" 
+           timeToIdleSeconds="120"
+           timeToLiveSeconds="120"
+           overflowToDisk="false"
+           memoryStoreEvictionPolicy="LRU" />
+           
+     <cache name="peliculasPorId" 
+           maxElementsInMemory="1000" 
+           timeToIdleSeconds="120"
+           timeToLiveSeconds="120"
+           overflowToDisk="false"
+           memoryStoreEvictionPolicy="LRU" />
+           
+     <cache name="peliculasPorNombre" 
+           maxElementsInMemory="1000" 
+           timeToIdleSeconds="120"
+           timeToLiveSeconds="120"
+           overflowToDisk="false"
+           memoryStoreEvictionPolicy="LRU" />
+           
+     <cache name="peliculasPorIdGenero" 
+           maxElementsInMemory="1000" 
+           timeToIdleSeconds="120"
+           timeToLiveSeconds="120"
+           overflowToDisk="false"
+           memoryStoreEvictionPolicy="LRU" />
+           
+            <cache name="personajes" 
+           maxElementsInMemory="1000" 
+           timeToIdleSeconds="120"
+           timeToLiveSeconds="120"
+           overflowToDisk="false"
+           memoryStoreEvictionPolicy="LRU" />
+           
+     <cache name="personajesPorId" 
+           maxElementsInMemory="1000" 
+           timeToIdleSeconds="120"
+           timeToLiveSeconds="120"
+           overflowToDisk="false"
+           memoryStoreEvictionPolicy="LRU" />
+           
+     <cache name="personajesPorNombre" 
+           maxElementsInMemory="1000" 
+           timeToIdleSeconds="120"
+           timeToLiveSeconds="120"
+           overflowToDisk="false"
+           memoryStoreEvictionPolicy="LRU" />
+           
+     <cache name="personajePorEdad" 
+           maxElementsInMemory="1000" 
+           timeToIdleSeconds="120"
+           timeToLiveSeconds="120"
+           overflowToDisk="false"
+           memoryStoreEvictionPolicy="LRU" />
+           
+      <cache name="personajePorPelicula" 
+           maxElementsInMemory="1000" 
+           timeToIdleSeconds="120"
+           timeToLiveSeconds="120"
+           overflowToDisk="false"
+           memoryStoreEvictionPolicy="LRU" />
+
+</ehcache> 

@@ -1,0 +1,35 @@
+body {
+	padding-top: 80px;
+}
+
+span.error {
+	color: red;
+	font-weight: bold;
+}
+
+label.error {
+	color: red;
+	font-weight: bold;
+} 
+.form-group {
+  height: 90px;
+}
+
+.themed-grid-col {
+	width: 100%;
+    padding-right: var(--bs-gutter-x, 0.200rem);
+    padding-left: var(--bs-gutter-x, 0.200rem);
+    margin-right: 120px;
+    margin-left: 120x;
+    text-align: center;
+}
+.thead-dark {
+	left: 0;
+    margin: 0;
+    right: 0;
+    text-align: center;
+    transform: translateY(0%);
+}
+.themed-grid {
+	 text-align: center;
+}
